@@ -2,10 +2,25 @@
     set number "display line numbers
     syntax on "put file syntax on 
     set t_Co=256 "not clear what this does, but seems important 
-    colorscheme molokai "colorscheme
     set cursorline "highlight cursorline underneath the cursor horizontally
     set cursorcolumn "highlight cursor line underneath the cursor vertically
+    
+    "COLORSCHEME BELOW THIS LINE 
+    if exists('+termguicolors')
+        let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+        let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+        set termguicolors
+    endif
+    
+    set background=dark "sets the everforest background
+    let g:everforest_background='hard' "sets the background CONTRAST (soft, medium(default), hard)
+    
+    let g:everforest_enable_italic = '0' "disables italics in everforest
+    let g:everforest_disable_italic_comment = '1' "disables italics in comments in everforest
 
+    colorscheme everforest "colorscheme
+
+   
 "}}}
 
 "FILE DETECTION----------------------------------------{{{
