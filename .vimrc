@@ -71,8 +71,6 @@ set wildmode=list:longest "Bash-like autocomplete behavior
 call plug#begin('~/.vim/plugged')
 "plugin code goes between the two calls 
 
-Plug 'sainnhe/everforest' "install everforest colorscheme
-
 Plug 'dense-analysis/ale' "install Asynchronous Lint Engine
 Plug 'preservim/nerdtree' "install NERDTree
 
