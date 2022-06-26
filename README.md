@@ -1,2 +1,4 @@
 # vim_configuration
-.vimrc will go in your home directory. All other folders should be contained in a directory named ".vim" in your home directory. 
+1) move .vimrc . 
+2) The directory that you pull all source directories into should be renamed to ".vim" and stored in your HOME directory.
+3) Open .vimrc in vim and type ":PlugInstall" to the vim command line to install plugins (NerdTree and ALE).
