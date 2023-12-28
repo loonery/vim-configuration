@@ -1,4 +1,4 @@
-This repository houses a set of vim configuration settings that I use to make Vim feel a bit more like an IDE when I am working with C! The settings are commented and can be reconfigured as needed. The colorscheme is called "everforest" : https://github.com/sainnhe/everforest. 
+This repository houses a set of vim configuration settings that I use to make Vim feel a bit more like an IDE when I am working with C. The settings are commented and can be reconfigured as needed. The colorscheme is called "everforest" : https://github.com/sainnhe/everforest. 
 
 
 CODE FOLDING-----------------------------------------------------------------------------------------------------------
