@@ -1,10 +1,8 @@
-This repository houses a set of vim configuration settings that I use to make Vim feel a bit more like an IDE when I am working with C. The settings are commented and can be reconfigured as needed. The colorscheme is called "everforest" : https://github.com/sainnhe/everforest. 
+This repository houses a set of vim configuration settings that I use to make Vim feel a bit more friendly. The settings are commented and can be reconfigured as needed. The colorscheme is called "everforest" : https://github.com/sainnhe/everforest. 
 
 
 CODE FOLDING-----------------------------------------------------------------------------------------------------------
 Code folding is not enjoyed by everyone. To disable the code folding (After following installation steps), navigate to the path ".vim/after/ftplugin/" and remove the file "c.vim" that dictates code folding behavior.
-
-
 
 
 INSTALLATION -----------------------------------------------------------------------------------------------------------
